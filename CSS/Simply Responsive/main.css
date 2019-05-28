@@ -1,0 +1,46 @@
+.row{
+    /* set any stylings you would like for each row, regardless of screen size */
+    padding:10px;
+    border: 3px solid blue;
+}
+@media only screen and (max-width:480px){
+    .sm-4{
+        width:100%;
+    }
+    .sm-2{
+        display: none;
+    }
+    .sm-0{
+        display:none;
+    }
+}
+@media only screen and (min-width:481px){
+    .med-2{
+        width:50%;
+        font-size: 10px;
+    }
+    .sm-4{
+        display: none;
+    }
+    .sm-2{
+        width: 50%;
+    }
+    .sm-4{
+        display: none;
+    }
+}
+@media only screen and (min-width:1024px){
+    .lg-1{
+        width: 25%; 
+    }
+    .lg-3{
+        width: 75%;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .responsive[data-abbr]::after { 
+        content: attr(data-abbr); 
+    }
+    . > span { display: none; }
+}

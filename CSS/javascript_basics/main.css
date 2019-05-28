@@ -1,0 +1,35 @@
+body{color: rgb(209, 209, 209);
+    background-color: rgb(27, 68, 68);
+}
+h1{
+    border-radius: 10px;
+    padding: 20px;
+    background-color:  rgb(175, 16, 16);
+
+}
+#sidebar{
+    background-color: rgb(20, 124, 124);
+    display: inline-block;
+    min-height:200px;
+    float: left;
+    border-radius: 10px;
+    margin: 10px;
+    
+}
+#main_area{
+    background-color: rgb(8, 32, 77);
+    width: 850px;
+    border-radius: 10px;
+    display: inline-block;
+    margin: 10px;
+    
+}
+#footer{
+    background: grey;
+    border-radius: 10px;
+    padding: 5px;
+    margin:20px;
+}
+span{
+    color: rgb(58, 58, 212)
+}
